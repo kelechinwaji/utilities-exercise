@@ -1,10 +1,10 @@
 //importing the files
 const firstFile = require('./utilities/file-one');
-const secondFile = require('./utilities/file-two');
+const {sum, concat} = require('./utilities/file-two');
 
 // Destructuring the files
 const {largeNumber, cut3} = firstFile;
-const {sum, concat} = secondFile;
+//const {sum, concat} = secondFile;
 
 
 const arr = [1,2,3,4,5,6,7,8,9];
